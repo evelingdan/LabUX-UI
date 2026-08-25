@@ -1,0 +1,87 @@
+*{
+    /* elimino margenes*/
+    margin: 0;
+    /* elimino el relleno*/
+    padding: 0;
+    /* evito que el ancho se sume al relleno*/
+    box-sizing: border-box; 
+}
+ /* Estilos generales */
+ /* selector a partir del nombre */
+
+body{
+    /* Fondo*/
+    background: url(Assets/imagen-back.jpg) center 0 no-repeat;
+    background-size: cover;
+
+}
+
+
+main{
+/*Configurar el ancho */
+width: 100%;
+max-width: 700px;
+/*Centro el contenedor */
+/* margen: top right bottom left; */
+margin: 0 auto 0 auto;
+background-color: rgba(37, 11, 115, 0.659);
+/*Centro el contenedor */
+padding: 0 20px 0 20px ;
+}
+
+img{
+ /*Configurar la imagen al 100% */
+ width: 100%
+}
+
+
+    /* Estlos de texto */
+h1{
+    /* familia tipográfico */
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    /* color de fuente */
+    color:rgb(255, 255, 255);
+    /* Alinear texto */
+    text-align: center;
+    /* margen: top right bottom left; */
+    margin: 20px 0 20px 0;
+
+}
+
+/* Selccion etiqueta por clase */
+.subtitulo-pf{
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    /* color de fuente */
+    color:rgb(255, 255, 255);
+    
+    /* margen: top right bottom left; */
+    margin: 20px 0 20px 0;
+
+}
+/* familia tipográfico */
+p{ 
+
+ font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+    color: rgb(248, 255, 47);
+    font-size: 15px;
+    /* Alinear texto */
+    text-align: justify;
+    /* margen: top right bottom left; */
+    margin: 20px 0 20px 0;
+}
+/* Selcciona por ID */
+#parrafo-destacado{
+/* color de fuente */
+    color:rgb(255, 255, 255)!important;
+
+}
+  
